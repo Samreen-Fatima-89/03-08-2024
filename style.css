@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+body {
+  background-color: #f3f3f3;
+  font-size: 20px;
+}
+
+.mainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  width: 300px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.profileContainer img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+}
+
+.aboutProfile > p {
+  text-align: center;
+  font-weight: 600px;
+}
+
+.btn1,
+.bt2 {
+  cursor: pointer;
+  border: 2px solid #933178;
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 8px;
+  color: black;
+}
+
+.profileProfession > span {
+  font-weight: normal;
+}
+
+.bt2 {
+  background-color: #933178;
+  color: white;
+}
+
+.profileBtns {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+}
+
+@media only screen and (max-width: 400px) {
+  .profileBtns {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
